@@ -11,6 +11,7 @@
 | Device / Устройство | Screen / Экран | Format / Формат | Preset / Пресет |
 |---|---|---|---|
 | 📱 **BlackBerry 9700 (Bold)** | 480×360 | MP4 (H.264 Baseline + AAC) | [presets/blackberry-9700/](presets/blackberry-9700/) |
+| 📱 **Sony Ericsson Xperia Arc (LT15i)** | 854×480 | MP4 (H.264 High L3.1 + AAC) | [presets/sony-ericsson-xperia-arc/](presets/sony-ericsson-xperia-arc/) |
 
 > 💡 Don't see your device? [Add a preset!](#-how-to-add-your-preset--как-добавить-свой-пресет)
 
@@ -41,9 +42,12 @@ retro-ffmpeg-presets/
 ├── README.md                  ← this file / этот файл
 ├── LICENSE                    ← BSD 2-Clause license / лицензия
 └── presets/
-    └── blackberry-9700/       ← first preset / первый пресет
-        ├── README.md          ← usage instructions / инструкция
-        └── convert.sh         ← conversion script / скрипт конвертации
+    ├── blackberry-9700/       ← first preset / первый пресет
+    │   ├── README.md          ← usage instructions / инструкция
+    │   └── convert.sh         ← conversion script / скрипт конвертации
+    └── sony-ericsson-xperia-arc/
+        ├── README.md
+        └── convert.sh
 ```
 
 ---
