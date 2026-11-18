@@ -50,14 +50,16 @@ retro-ffmpeg-presets/
 
 ## How to Add Your Preset / Как добавить свой пресет
 
-1. Create a folder `presets/<device-name>/` / Создайте папку `presets/<название-устройства>/`
-2. Add your working FFmpeg command or script / Добавьте рабочую команду FFmpeg или скрипт
-3. Test it on the real device / Протестируйте на реальном устройстве
-4. Add a `README.md` with: / Добавьте `README.md` с указанием:
+1. Fork the repo / Сделайте форк
+2. Create a folder `presets/<device-name>/` / Создайте папку `presets/<название-устройства>/`
+3. Add your working FFmpeg command or script / Добавьте рабочую команду FFmpeg или скрипт
+4. Test it on the real device / Протестируйте на реальном устройстве
+5. Add a `README.md` with: / Добавьте `README.md` с указанием:
    - device specs (screen, codecs, limits) / характеристик устройства (экран, кодеки, ограничения)
    - usage example / примера использования
-5. Add a row to the [menu table](#-menu--меню) above / Добавьте строку в таблицу меню выше
-6. Open a Pull Request / Откройте Pull Request
+6. Add a row to the [menu table](#-menu--меню) above / Добавьте строку в таблицу меню выше
+7. Commit / Закоммитьте: `git commit -m "Add preset for <device>"`
+8. Open a Pull Request / Откройте Pull Request
 
 ---
 
@@ -67,19 +69,6 @@ retro-ffmpeg-presets/
 - ✅ Include source specs (resolution, bitrate, codec limits) / Включайте характеристики устройства
 - ✅ Prefer widely compatible codecs (H.264 Baseline, AAC) / Используйте максимально совместимые кодеки
 - ❌ No watermarks, no proprietary blobs / Без водяных знаков и проприетарных бинарников
-
----
-
-## Contributing / Участие
-
-Contributions are welcome! Bug reports, new devices, bitrate tweaks — everything helps.
-
-Вклад приветствуется! Багрепорты, новые устройства, тонкая настройка битрейта — всё полезно.
-
-1. Fork the repo / Сделайте форк
-2. Create a branch / Создайте ветку: `git checkout -b add-<device-name>`
-3. Commit / Закоммитьте: `git commit -m "Add preset for <device>"`
-4. Push and open a PR / Запушьте и откройте PR
 
 ---
 
